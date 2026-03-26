@@ -5,11 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         #d1 {
+            background-color: blanchedalmond;
             height: 200px;
             width: 300px;
             padding: 20px;
+            border: 10px ridge red;
+            border-radius: 20px;
+            margin: 30px;
+            box-shadow: 10px 10px 10px black;
+            font-family: "Momo Signature", cursive;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        table,
+        th,
+        td {
+            border: 3px solid darkblue;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: lightgreen;
+        }
+
+        tbody {
+            background-color: lightcoral;
         }
     </style>
 </head>
@@ -19,7 +51,38 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid fugiat iste maiores consequuntur sint
         tenetur placeat blanditiis incidunt molestiae, vitae ut nisi harum quaerat ea modi debitis unde ad?
     </div>
-
+    <i class="fa-solid fa-car fa-bounce"></i>
+    <i class="fa-solid fa-house"></i>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>amal</td>
+                <td>21</td>
+                <td>04583845035</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>vimal</td>
+                <td>21</td>
+                <td>04583845035</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sunil</td>
+                <td>23</td>
+                <td>04583845035</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
