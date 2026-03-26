@@ -1,0 +1,18 @@
+length value units
+--------------------
+px
+pt
+rem
+cm
+in
+%
+
+box model properties:
+box model properties are a set of 4 different properties which is present in the case of every elements
+in css an element is represented by these 4 properties
+
+1.inner content / height & width
+2.padding - top, bottom, left, right
+
+3.border
+4.margin
