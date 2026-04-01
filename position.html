@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1 {
+            margin-top: 50px;
+            background-color: blue;
+            height: 100px;
+            position: static;
+            top: 100px;
+            position: static;
+        }
+
+        #d2 {
+            background-color: red;
+            height: 100px;
+            position: relative;
+            bottom: 50px;
+
+        }
+
+        #d3 {
+            background-color: blue;
+            height: 100px;
+
+        }
+
+        #d4 {
+            background-color: lightblue;
+            position: absolute;
+            top: 10px;
+            left: 500px;
+            height: 50px;
+            width: 50px;
+        }
+
+        #d5 {
+            background-color: aqua;
+        }
+
+        #parent {
+            height: 500px;
+            width: 500px;
+            background-color: lightpink;
+            position: relative;
+        }
+
+        #d6absolut {
+            position: absolute;
+            top: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+        #sticky {
+            text-align: center;
+            border: ridge 5px darkblue;
+            border-radius: 10px;
+            background-color: lightskyblue;
+            position: sticky;
+            top: 0;
+        }
+
+        #fixed {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sticky">
+        <h1>sticky</h1>
+    </div>
+    <div id="d1">
+        div1
+    </div>
+    <div id="d2">
+        div2
+    </div>
+    <div id="d3">
+        div3
+    </div>
+    <div id="parent">
+        <div id="d4">
+            div4 absolute
+        </div>
+    </div>
+
+    <div id="d5">
+        div5
+    </div>
+    <div id="fixed">
+        fixed
+    </div>
+
+
+
+</body>
+
+</html>

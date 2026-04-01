@@ -1,0 +1,26 @@
+#header {
+    background-color: lightblue;
+    padding: 20px;
+    border: lightgreen ridge 10px;
+    border-radius: 20px;
+}
+
+#h2name {
+    text-align: center;
+}
+
+#s1 {
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    display: inline-block
+}
+
+#nav {
+    margin-top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+    border: darkolivegreen ridge 10px;
+    border-radius: 20px;
+
+}

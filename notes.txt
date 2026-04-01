@@ -17,3 +17,41 @@ in css an element is represented by these 4 properties
 3.border - color,width,style,radius
 4.margin : space surrounding border of an element
  - top -bottom -left -right
+
+Display: to handle Display values of element
+-------
+1.inline
+2.block
+3.inline-block
+4.flex : for 1 dimensional alignment
+5.grid : for 2 dimensional alignment
+
+position:
+---------
+position property is used for aligning/positioing single elements in page
+
+1.static : default postion property
+2.relative : is used for positioing an element relative to its static postion
+                the element will be able to overlap other element 
+                its static position will remain occupied
+3.absolute
+4.fixed
+5.sticky - relative+fixed :: until bufferpoint it act as relative after it act as fixed
+after mentioning position prop and value we uses top left right bottom prop and value we uses top left right bottom 
+props for aligning the element
+
+
+opacity:
+color grading property
+
+z-index :
+to control elements overlapping order
+
+float:
+
+Grid layout=>
+------------
+grid is used for 2-dimensional layout , with rows AND columns
+
+1. A Grid Container - The parent (container) element, where the display property is set to grid or inline-grid
+2. One or more Grid Items - The direct children of the grid container automatically becomes grid items
