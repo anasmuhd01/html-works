@@ -1,0 +1,50 @@
+<!-- pseudo element selector
+selector::element
+
+-first-line
+-first-letter
+-before
+-after
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            color: green;
+        }
+
+        p::first-letter {
+            font-size: xx-large;
+        }
+
+        p::before {
+            content: "Hello! ";
+        }
+
+        p::after {
+            content: " END";
+        }
+        p:hover{
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci repellendus incidunt, eos aliquam, vitae
+        debitis illum tenetur optio tempora consectetur officia inventore quasi neque quidem rerum amet. Voluptas,
+        tenetur.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam id cupiditate in, eum itaque
+        aliquam veritatis ut, voluptates nemo ex distinctio vero delectus architecto assumenda sint quidem harum quae
+        molestiae.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quas inventore ratione, excepturi ea aliquid
+        eum consequuntur recusandae omnis. Consectetur deserunt adipisci quis voluptas debitis obcaecati recusandae a
+        libero architecto?</p>
+</body>
+
+</html>
