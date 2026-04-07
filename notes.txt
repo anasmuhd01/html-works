@@ -55,3 +55,14 @@ grid is used for 2-dimensional layout , with rows AND columns
 
 1. A Grid Container - The parent (container) element, where the display property is set to grid or inline-grid
 2. One or more Grid Items - The direct children of the grid container automatically becomes grid items
+
+-> css media queries:
+---------------------
+
+allow you to apply styles based on the charachteristics of a device or the environment displaying the web page.
+css media queries are essential for creating responsive web pages
+
+sytax:
+    @media not|only mediatype and (mediafeature and|or|not mediafeature){
+        css-code;
+    }
