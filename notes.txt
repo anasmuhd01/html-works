@@ -56,6 +56,9 @@ grid is used for 2-dimensional layout , with rows AND columns
 1. A Grid Container - The parent (container) element, where the display property is set to grid or inline-grid
 2. One or more Grid Items - The direct children of the grid container automatically becomes grid items
 
+responsive webpage:
+a webpage which can automatically re-arrage its layout based on device or screen size is called responsive webpage:
+
 -> css media queries:
 ---------------------
 
@@ -66,3 +69,49 @@ sytax:
     @media not|only mediatype and (mediafeature and|or|not mediafeature){
         css-code;
     }
+
+
+<!-- pseudo element selector
+selector::element
+
+-first-line
+-first-letter
+-before
+-after
+-->
+
+<!-- pseudo class selectors: selector:classname{} 
+    a:link
+    a:visited
+    a:hover
+    a:active
+-->
+
+<!-- CSS selectors:
+
+1.simple selector : element selector,class selector, id selctor
+2.combinators-
+    -desendant selector (space)
+    -child selector (>)
+    -adjacent sibling selector (+)
+    -general sibling selector (~)
+
+-->
+
+<!-- 
+CSS transform
+transform: property
+properties---------
+1.MOVE
+    translate(x,y)
+    translateX()
+    translateY()
+
+2.ZOOM
+    scale >1 bigger   <1 smaller
+
+3.ROTATE
+rotate(deg)
+
+
+-->
